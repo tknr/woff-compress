@@ -34,7 +34,7 @@ use Compress::Zlib;    # wishlist: Compress::Zopfli
 
 my $verbose = 0;
 
-my $zopfli = "/usr/bin/zopfli";
+my $zopfli = "/usr/local/bin/zopfli";
 $zopfli = undef if !-x $zopfli;
 
 while ( $ARGV[0] eq '-v' ) {
